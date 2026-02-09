@@ -6,7 +6,7 @@ A clean, responsive, and minimalist personal portfolio website built with raw HT
 - [ ] **Profile Picture:** Replace the placeholder in `index.html` with a proper headshot.
 - [ ] **Project Images:** Take screenshots of current projects and save them to an `/images` folder. Update the `src` paths in `projects.html`.
 - [ ] **Project Descriptions:** Review and refine the project copy in `projects.html` to ensure it accurately highlights the project and what it does.
-- [ ] **Resume:** Add the actual `resume.pdf` file to the root directory and ensure the download link in the Hero section works.
+- [x] **Resume:** Add the actual `resume.pdf` file to the root directory and ensure the download link in the Hero section works.
 
 ## ✨ Features
 * **Dark/Light Mode:** A persistent theme toggle that saves user preference to `localStorage`.
