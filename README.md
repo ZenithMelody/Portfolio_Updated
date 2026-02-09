@@ -3,10 +3,9 @@
 A clean, responsive, and minimalist personal portfolio website built with raw HTML, CSS, and JavaScript. Designed to showcase my background in Computer Engineering, software development projects, and professional experience.
 
 ## 🚧 To-Do / Pending Updates
-*These items need to be addressed before the final deployment:*
-- [ ] **Profile Picture:** Replace the placeholder `https://via.placeholder.com...` in `index.html` with a professional headshot (Square aspect ratio recommended).
-- [ ] **Project Images:** Take screenshots of current projects (TT4D, TradingView Alerts, NFTVue) and save them to an `/images` folder. Update the `src` paths in `projects.html`.
-- [ ] **Project Descriptions:** Review and refine the project copy in `projects.html` to ensure it accurately highlights the tech stack and my specific contributions.
+- [ ] **Profile Picture:** Replace the placeholder in `index.html` with a proper headshot.
+- [ ] **Project Images:** Take screenshots of current projects and save them to an `/images` folder. Update the `src` paths in `projects.html`.
+- [ ] **Project Descriptions:** Review and refine the project copy in `projects.html` to ensure it accurately highlights the project and what it does.
 - [ ] **Resume:** Add the actual `resume.pdf` file to the root directory and ensure the download link in the Hero section works.
 
 ## ✨ Features
@@ -27,7 +26,7 @@ A clean, responsive, and minimalist personal portfolio website built with raw HT
 ├── index.html          # Main landing page (Hero + Experience Timeline)
 ├── projects.html       # Dedicated projects grid view
 ├── style.css           # Global styles, variables, and media queries
-├── script.js           # Theme toggle logic and tab switching
-├── /images             # Folder for project screenshots and profile pic
-└── README.md           # Project documentation
+├── script.js           # Light/Dark toggling
+├── /images             # Folder for project screenshots and profile picture
+└── resume.pdf          # Downloadable resume
 └── README.md           # Project documentation
