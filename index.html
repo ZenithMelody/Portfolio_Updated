@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html">home</a>
+            <a href="projects.html">projects</a> 
+        </div>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">
+            <span class="icon">☀</span> </button>
+    </nav>
+
+    <main class="container">
+        
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>hi, i'm [Ryan]. 👋</h1>
+                <p class="subtitle">ICT student from Singapore [🇸🇬]</p>
+                <p class="bio">
+                    Currently enrolled in Singapore University of Social Sciences. BSc in Information and Communication Technology
+                </p>
+
+                <div class="hero-actions">
+                    <a href="resume.pdf" class="btn">Resume 📄</a>
+                    <a href="https://www.linkedin.com/in/ryan-choo-70038b1a4/" class="social-icon" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                    </a>
+                   <a href="https://github.com/ZenithMelody" class="social-icon" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Profile Picture">
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <div class="toggle-container">
+                <button class="toggle-btn active" onclick="showSection('work')">Work</button>
+                <button class="toggle-btn" onclick="showSection('education')">Education</button>
+            </div>
+
+            <div id="work" class="list-content active-content timeline-wrapper">
+                
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <img src="images/xjera_labs.jpg" alt="Logo" class="timeline-logo">
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-header">
+                            <h3>XJERA LABS</h3>
+                            <span class="date">Mar 2023 - Aug 2023 · 6 mos</span>
+                        </div>
+                        <p class="role">Project Engineer Internship</p>
+                        <ul class="achievements">
+                            <li>Assisted in preparing and cleaning the physical data for leather defect AI model</li>
+                            <li>Assisted in CCTV AI model via data cleaning</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <img src="images/racer.jpg" alt="Logo" class="timeline-logo">
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-header">
+                            <h3>Racer Technology</h3>
+                            <span class="date">May 2020 - Jun 2020 · 2 mos</span>
+                        </div>
+                        <p class="role">Internship</p>
+                        <ul class="achievements">
+                            <li>Quality assurance of physical products</li>
+                            <li>Packing of biomedical devices in clean room</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <img src="images/st.png" alt="Logo" class="timeline-logo">
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-header">
+                            <h3>ST Engineering</h3>
+                            <span class="date">Apr 2020 - May 2020 · 2 mos</span>
+                        </div>
+                        <p class="role">Internship</p>
+                        <ul class="achievements">
+                            <li>Handling and basic cleaning of data via Excel</li>
+                            <li>Handling and sorting of physical company documents</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="education" class="list-content timeline-wrapper">
+                
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <img src="images/sp.jpg" alt="Logo" class="timeline-logo">
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-header">
+                            <h3>Singapore Polytechnic</h3>
+                            <span class="date">Oct 2024 – Jul 2025</span>
+                        </div>
+                        <p class="role">Certificate in Front-End Web Development, Web Development</p>
+                        <div class="timeline-buttons">
+                            <a href="#" class="btn-pill"></i> Final Year Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <img src="images/nyp.jpg" alt="Logo" class="timeline-logo">
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-header">
+                            <h3>Nanyang Polytechnic</h3>
+                            <span class="date">Apr 2021 – May 2024</span>
+                        </div>
+                        <p class="role">Diploma of Education, Electronics and Computer Engineering</p>
+                        <div class="timeline-buttons">
+                            <a href="#" class="btn-pill"></i> Final Year Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <img src="images/ite.png" alt="Logo" class="timeline-logo">
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-header">
+                            <h3>Institute of Technical Education</h3>
+                            <span class="date">Apr 2019 – Apr 2021</span>
+                        </div>
+                        <p class="role">High School Diploma, Electronics Engineering</p>
+                        <div class="timeline-buttons">
+                            <a href="#" class="btn-pill"></i>Certificate of Merit</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>featured projects <span class="arrow">→</span></h2>
+            
+            <div class="projects-grid">
+                
+                <div class="card project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x350" alt="Project Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>Description of Project</p>
+                        
+                        <div class="tags">
+                            <span>Tag 1</span>
+                            <span>Tag 2</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn-sm">Website 🌐</a>
+                            <a href="#" class="btn-sm">Source 📂</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x350" alt="Project Screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p>Description of Project</p>
+                        
+                        <div class="tags">
+                            <span>Tag 1</span>
+                            <span>Tag 2</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn-sm">Website 🌐</a>
+                            <a href="#" class="btn-sm">Source 📂</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ryan Choo. Built with HTML, CSS, JS.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
